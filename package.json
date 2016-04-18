@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Jameskmonger/closest-array/issues"
   },
-  "homepage": "https://github.com/Jameskmonger/closest-array#readme"
+  "homepage": "https://github.com/Jameskmonger/closest-array#readme",
+  "devDependencies": {
+    "modunit": "^0.3.0",
+    "tap-heart": "^0.2.1"
+  }
 }
