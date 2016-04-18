@@ -1,6 +1,6 @@
 {
   "name": "closest-array",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get the closest value to a given goal from an array.",
   "main": "index.js",
   "scripts": {
