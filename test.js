@@ -6,7 +6,7 @@ const closest = require('./index');
 test('closest is goal when array contains goal only', (t, goal) => {
 
     let array = [ goal ];
-    let output = closest(goal);
+    let output = closest(array, goal);
 
     t.assert.equal(goal, output);
 
@@ -18,8 +18,7 @@ test('closest is goal when array contains goal only', (t, goal) => {
 
 test('closest is goal when array contains goal', (t, array, goal) => {
 
-    let array = [ goal ];
-    let output = closest(goal);
+    let output = closest(array, goal);
 
     t.assert.equal(goal, output);
 
